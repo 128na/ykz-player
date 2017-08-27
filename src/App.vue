@@ -53,7 +53,12 @@
       </section>
     </main>
     <footer>
-      copyright 2017 <a href="https://twitter.com/128Na">@128Na</a>
+      <ul>
+        <li><i class="fa fa-copyright" aria-hidden="true"></i> 2017 128Na</li>
+        <li><a target="_blank" href="http://simutrans128.blog26.fc2.com/">Blog</a></li>
+        <li><a target="_blank" href="https://twitter.com/128Na"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a target="_blank" href="https://github.com/128na/ykz-player"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+      </ul>
     </footer>
   </div>
 </template>
@@ -255,10 +260,18 @@ main {
 footer {
   text-align: center;
 }
-
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin: 4px;
+}
+footer li {
+  padding: 0 8px;
+}
 header,
 footer {
   background-color: #2e3192;
   color: #fff;
+  font-size: 0.8rem;
 }
 </style>
