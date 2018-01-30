@@ -11,19 +11,19 @@
   "dependencies": {
     "axios": "^0.16.2",
     "jQuery": "^1.7.4",
-    "vue": "^2.3.3",
+    "vue": "^2.5.13",
     "youtube-player": "^5.4.0"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
-    "babel-preset-env": "^1.5.1",
+    "babel-preset-env": "^1.6.1",
     "cross-env": "^3.0.0",
     "css-loader": "^0.25.0",
     "file-loader": "^0.9.0",
     "vue-loader": "^12.1.0",
-    "vue-template-compiler": "^2.3.3",
+    "vue-template-compiler": "^2.5.13",
     "webpack": "^2.6.1",
-    "webpack-dev-server": "^2.4.5"
+    "webpack-dev-server": "^2.11.1"
   }
 }
